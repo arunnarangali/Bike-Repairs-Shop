@@ -73,6 +73,7 @@ main {
     text-align: center;
 }
 
+
 .card1 {
     background-image: url(images/image-background-card1.jpg);
     background-size: cover;
@@ -262,7 +263,7 @@ form{
 input[type=submit]{
     margin-bottom: 50px;
     margin-left: 50%;
-    color: whitesmoke;
+    color: rgb(90, 90, 90);
     background-color: #f86a9e;
     border: 1px solid white;
     padding: 20px 20px;
@@ -270,7 +271,7 @@ input[type=submit]{
 }
 
 input[type=submit]:hover{
-    background-color: #FC5E55;
+    background-color: #d4cece;
     transform: scale(1.25);
     transition: 1s;
 }
