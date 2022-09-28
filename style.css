@@ -315,7 +315,10 @@ select{
     display: flex;
    align-items: center;
 }
-
+.image:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
 .content{
     padding: 50px 50px ;
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.719);
