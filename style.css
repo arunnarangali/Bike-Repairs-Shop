@@ -114,7 +114,7 @@ h2{
     font-family: 'Playfair Display', serif;
     margin-top: 20px; 
 }
-p{
+p , label{
     line-height: 1.75rem;
     margin-bottom: 0.5rem;
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.719);
@@ -236,4 +236,59 @@ a :hover{
 }
 .box:hover p{
 display:inline-block;
+}
+form{
+    margin-top: 50px; 
+}
+/* #name ,#email {
+    width: 850px;
+} */
+#submit{
+    margin-top: 5px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+    width: 100px;
+    height: 20px;
+    color: whitesmoke;
+    background-color: #f86a9e;
+    border: 1px solid white;
+   padding: 20px 20px 30px 20px;
+   text-align: center;
+   border-radius: 100px;
+   
+
+}
+
+#submit:hover{
+    background-color: #FC5E55;
+    transform: scale(1.25);
+    transition: 1s;
+}
+
+.inputwrapper{
+    margin-bottom: 30px;
+}
+
+input[type=text] ,input[type=email] ,textarea {
+  padding: 12px 20px;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  box-sizing: border-box;
+
+}
+ 
+.newline{
+    display: block;
+    margin-bottom: 10px;
+}
+ 
+.phone {
+    margin-right: 50px;
+}
+#country  ,input[type=date] {
+    margin-left: 10px;
+}
+input[type=radio] {
+    margin-right: 10px;
 }

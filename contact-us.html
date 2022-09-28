@@ -54,13 +54,63 @@
 
          <h1>CONTACT US</h1>
          <P>Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.</P>
-           <form action="mail.php" method="post">
+        <form action="mail.php" method="post">
+        
+        
+            <div class="inputwrapper">
+                <label for="name" class="newline"> First Name</label>
+                <input type="text" name="name" id="name" placeholder="first name">
+            </div>
+        
+        
+            <div class="inputwrapper">
+                <label for="email" class="newline"> Email</label>
+                <input type="email" name="email" id="email" placeholder="enter your email ">
+            </div>
+        
+            <div class="inputwrapper">
+        
+                <textarea name="message" id="message" cols="100" rows="5" placeholder="let us know what you think"></textarea>
+        
+            </div>
+        
+            <div class="inputwrapper">
+        
+                <input type="checkbox" name="email-sub" id="email-sub" value="yes-sign-me-up" checked>
+                <label for="email-sub"> Sign Up for Email NewsLetter</label>
+        
+            </div>
 
-            <input type="text" name="name" id="name">
-            <input type="email" name="email" id="email">
-            <input type="submit" value="submit">
+            <div class="inputwrapper">
 
-           </form>
+             <P>How Would You like to be Contacted ?</p>
+            <input type="radio" name="contact-pref" id="phone" value="phone">
+            <label for="Phone" class="phone"> Phone</label>
+            <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+            <input type="radio" name="contact-pref" id ="email2" value="email">
+            <label for="email2"> Email</label>
+
+            </div>
+
+            <div class="inputwrapper">
+                <label for="country">Chose your country :</label>
+                <select name="country" id="country">
+                    <option value="not-choose">choose country </option>
+                    <option value="india">India</option>
+                    <option value="sreelanka"> Sreelanka</option>
+                    <option value="pakistan">Pakistan</option>
+                </select>
+        
+            </div>
+            <div class="inputwrapper">
+                <label for="date-apply">what day did you contact us? :</label>
+                <input type="date" name="date-apply" id="date-apply">
+            </div>
+        
+            <input type="submit" value="Send" id="submit">
+        
+        
+        </form>
         
         
         </div>
