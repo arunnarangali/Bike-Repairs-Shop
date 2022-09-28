@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roar cycle - Bike Repair in Dubling</title>
+    <title>Roar cycle - Contact Us Details Address Phone Number</title>
+    <meta nmae="discription" content="Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.">
 
     <!-- -- this is Eric Mayers css rest -->
     <link rel="stylesheet" href="css-reset.css">
@@ -49,21 +50,72 @@
             </nav>
         </header>
         <!-- <hr> -->
-        <main>
-            <div class="herobox1">
-                <h1>Mobile bike repairs.</h1>
-                <p>.Many people have difficulty getting their bikes to a bike shop. We call to your office or home
-                    anywhere in greater Dublin.</p>
-                <p>Fast, convenient bike servicing with up-front pricing. All without the hassle of taking your bike
-                    into a shop.</p>
-                <!-- <button>click here</button>
-                 -->
-                <a href="bookonline.html" class="mybutton" target="_blank">Book Online </a>
+        <div class="main2">
+
+         <h1>Book Online</h1>
+         <p>Please fill out the information to complete your online reservation</p>
+        <form action="mail.php" method="post">
+        
+        
+            <div class="inputwrapper">
+                <label for="name" class="newline"> First Name</label>
+                <input type="text" name="name" id="name" placeholder="first name">
             </div>
-            <div class="herobox2 ">
-                <img src="images/image-bike-repair-service-a.jpg" alt="image of bike repairer">
+
+            <div class="inputwrapper">
+
+                <label for="name2" class="newline"> Last Name</label>
+                <input type="text" name="name" id="name2" placeholder="Last name">
+
             </div>
-        </main>
+        
+        
+            <div class="inputwrapper">
+                <label for="email" class="newline"> Email</label>
+                <input type="email" name="email" id="email" placeholder="enter your email ">
+            </div>
+        
+            <div class="inputwrapper">
+
+                 <label for="message" class="newline">let us know what you want : </label>
+                <textarea name="message" id="message" cols="100" rows="5" placeholder="let us know what you want /Problem"></textarea>
+        
+            </div>
+
+            <div class="inputwrapper">
+
+             <p>How Would You like to be Contacted ?</p>
+            <input type="radio" name="contact-pref" id="phone" value="phone">
+            <label for="Phone" class="phone"> Phone</label>
+            <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+            <input type="radio" name="contact-pref" id ="email2" value="email">
+            <label for="email2"> Email</label>
+
+            </div>
+
+            <div class="inputwrapper">
+                <label for="book-online" class="newline">Purpose Of Booking </label>
+                <select name="book-online" id="book-online">
+                    <option value="not-choose">choose anything </option>
+                    <option value="Onsite service">Onsite Service</option>
+                    <option value="Parts Delivary">Parts Delivary</option>
+                    <option value="Request Callback">Request Callback</option>
+                    <option value="other">other</option>
+                </select>
+        
+            </div>
+            <div class="inputwrapper " >
+                <label for="date-apply" class="newline">Booking date</label>
+                <input type="date" name="date-apply" id="date-apply">
+            </div>
+        
+            <input type="submit" value="Book" id="submit">
+        
+        
+        </form>
+        
+        
+        </div>
         <div class="card">
             <div class="card1 card-hover">
                 <a href="bookonline.html">
