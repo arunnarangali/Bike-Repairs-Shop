@@ -243,23 +243,20 @@ form{
 /* #name ,#email {
     width: 850px;
 } */
-#submit{
+input[type=submit]{
     margin-top: 5px;
     margin-bottom: 50px;
     margin-left: 400px;
-    width: 100px;
-    height: 20px;
     color: whitesmoke;
     background-color: #f86a9e;
     border: 1px solid white;
-   padding: 20px 20px 30px 20px;
-   text-align: center;
+    padding: 12px 20px;
+    text-align: center;
    border-radius: 100px;
-   
-
+   box-sizing: border-box;
 }
 
-#submit:hover{
+input[type=submit]:hover{
     background-color: #FC5E55;
     transform: scale(1.25);
     transition: 1s;
