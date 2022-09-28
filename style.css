@@ -5,6 +5,7 @@ html{
     background-repeat: no-repeat;
 }
 body {
+    width: 100%;
     background-image: url(images/image-lion-background.png);
     background-position:top center ;
     background-repeat: no-repeat;
