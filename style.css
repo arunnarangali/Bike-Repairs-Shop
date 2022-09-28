@@ -3,7 +3,6 @@ html{
      height: 100%;
     background-image: linear-gradient(#FC5E55 ,#FA4083);
     background-repeat: no-repeat;
-    background-position:top center ;
 }
 body {
     background-image: url(images/image-lion-background.png);
